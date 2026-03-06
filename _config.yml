@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "ACM seminar 2026 spring"
+title                    : "ACM seminar"
 title_separator          : "-"
 name                     : &name "Taewoong Eom"
 description              : &description "Applied and computational mathematics semimars in 2026"   # Update this with a general description of your site, this is the default if not overridden by a page
