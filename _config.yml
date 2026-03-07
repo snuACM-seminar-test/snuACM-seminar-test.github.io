@@ -236,7 +236,10 @@ collections:
   talks2:
     output: true
     permalink: /:collection/:path/
-
+  mailing list:
+    output: true
+    permalink: /:collection/:path/
+  
 
 # These settings control how pages and collections are included in the site
 defaults:
