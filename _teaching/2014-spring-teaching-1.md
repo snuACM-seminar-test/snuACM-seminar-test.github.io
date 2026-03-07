@@ -1,20 +1,16 @@
+
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+title: "TBA"
+collection: talks
+type: ""
+permalink: /talks/2026-09-01
+date: 2026-09-01
+venue: ""
+location: ""
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+- **Time** : 10:30 - 12:00 <br>
+- **Zoom link** : <br>
+- **Speaker** : <br>
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+TBA
