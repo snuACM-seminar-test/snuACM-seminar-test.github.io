@@ -24,9 +24,12 @@ main:
     #     url: /talks/5.8
     #   - title: 5.29
     #     url: /talks/5.29
-        
+
   - title: "2026-2"
-    url: /teaching/    
+  - url: /talks2/
+  
+  # - title: "2026-2"
+  #   url: /teaching/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
