@@ -11,23 +11,26 @@ main:
   - title: "Home"
     url: /
 
-  - title: "2026-1"
-    url: /talks/
-    # children:
-    #   - title: 4.3
-    #     url: /talks/4.3
-    #   - title: 4.17
-    #     url: /talks/4.17
-    #   - title: 5.1
-    #     url: /talks/5.1
-    #   - title: 5.8
-    #     url: /talks/5.8
-    #   - title: 5.29
-    #     url: /talks/5.29
-
-  - title: "2026-2"
-    url: /talks2/
-  
+  - title: "<i class='fas fa-bars'></i> Seminars"
+    url:
+    children:
+      - title: "2026-1"
+        url: /talks/
+        # children:
+        #   - title: 4.3
+        #     url: /talks/4.3
+        #   - title: 4.17
+        #     url: /talks/4.17
+        #   - title: 5.1
+        #     url: /talks/5.1
+        #   - title: 5.8
+        #     url: /talks/5.8
+        #   - title: 5.29
+        #     url: /talks/5.29
+    
+      - title: "2026-2"
+        url: /talks2/
+      
   # - title: "2026-2"
   #   url: /teaching/    
     
