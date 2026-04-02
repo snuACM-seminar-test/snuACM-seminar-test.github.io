@@ -16,17 +16,17 @@ The SNU Applied and Computational Mathematics seminar brings together researcher
 {% assign has_upcoming = false %}
 
 {% for talk in upcoming_talks %}
-  {% assign talk_date = talk.date | date: '%s' %}
-  {% if talk_date >= today %}
-    <div class="notice--info">
-      <p><a href="{{ talk.url }}">{{ talk.title }}</a></p>
-      <p>Date: {{ talk.date | date: "%B %-d, %Y" }} <br>
-      Location:</strong> {{ talk.venue | default: "TBA" }}</p>
-      <p>{{ talk.excerpt | strip_html | truncatewords: 30 }}</p>
-    </div>
-    {% assign has_upcoming = true %}
-    {% break %}
-  {% endif %}
+{% assign talk_date = talk.date | date: '%s' %}
+{% if talk_date >= today %}
+<div class="notice--info">
+  <p><a href="{{ talk.url }}">{{ talk.title }}</a></p>
+  <p>Date: {{ talk.date | date: "%B %-d, %Y" }} <br>
+  Location:</strong> {{ talk.venue | default: "TBA" }}</p>
+  <p>{{ talk.excerpt | strip_html | truncatewords: 30 }}</p>
+</div>
+{% assign has_upcoming = true %}
+{% break %}
+{% endif %}
 {% endfor %}
 
 To receive email notifications about the schedules and abstracts of the ACM seminars, you can join our mailing list [here](/mailing-list/).
