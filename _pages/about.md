@@ -12,8 +12,6 @@ The SNU Applied and Computational Mathematics seminar brings together researcher
 ## Announcement
 Please note that the seminar scheduled for April 17th has been canceled. The next seminar will be held on May 1st.
 
----
-
 ## Upcoming Seminar
 
 {% assign today = 'now' | date: '%s' %}
